@@ -16,6 +16,6 @@
     </dependencies>
   </metadata>
   <files>   
-    <file src="..\..\SharedProjects\Net.Instrumented\**\*.cs" target="content/App_Packages/CCLLC.Core.Net.Instrumented.$version$/" />
+    <file src="..\CCLLC.Core.Net.Instrumented\*.cs" target="content/App_Packages/CCLLC.Core.Net.Instrumented.$version$/" />
   </files>
 </package>
