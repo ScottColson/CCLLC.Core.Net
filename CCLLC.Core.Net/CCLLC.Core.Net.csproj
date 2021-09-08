@@ -52,7 +52,9 @@
     <Compile Include="WebRequestFactory.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="assembly.nuspec" />
     <None Include="CCLCCCoreNet.snk" />
+    <None Include="sourcecode.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

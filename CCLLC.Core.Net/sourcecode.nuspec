@@ -8,10 +8,11 @@
     <owners>Colson Code, LLC</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/ScottColson/CCLLCCodeLibraries</projectUrl>
+    <projectUrl>https://github.com/ScottColson/CCLLC.Core.Net</projectUrl>
     <tags>HTTP WebRequest</tags>
   </metadata>
   <files>   
-    <file src="..\..\SharedProjects\Net\**\*.cs" target="content/App_Packages/CCLLC.Core.Net.$version$/" />
+    <file src="..\CCLLC.Core.Net\*.cs" target="content/App_Packages/CCLLC.Core.Net.$version$/" />
+    <file src="..\CCLLC.Core.Net\Interfaces\*.cs" target="content/App_Packages/CCLLC.Core.Net.$version$/" />
   </files>
 </package>
