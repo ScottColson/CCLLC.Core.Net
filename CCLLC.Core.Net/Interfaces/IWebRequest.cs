@@ -12,6 +12,7 @@ namespace CCLLC.Core.Net
         IWebResponse Delete();
         IWebResponse Post(byte[] data, string contentType = null, string contentEncoding = null);
         IWebResponse Put(string body, string contentType = null);
+        IWebResponse Put(byte[] body, string contentType = null);
     }
 
     
