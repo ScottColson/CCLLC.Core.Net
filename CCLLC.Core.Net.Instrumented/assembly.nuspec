@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata minClientVersion="3.3.0">
-    <id>CCLLC.Core.Net.Instrumented.Sources</id>
+    <id>CCLLC.Core.Net.Instrumented</id>
     <version>$version$</version>
     <description>Provides basic HTTP Web services with Dependency Telemetry collection based on CCLLC.Telemetry.</description>
     <authors>Colson Code, LLC</authors>
@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/ScottColson/CCLLC.Core.Net</projectUrl>
     <tags>HTTP WebRequest</tags>
     <dependencies>
-      <dependency id="CCLLC.Core.Net" version="1.1.1" />
+      <dependency id="CCLLC.Core.Net" version="1.2.0.1" />
       <dependency id="CCLLC.Telemetry" version="2.1.2" />
     </dependencies>
   </metadata>
